@@ -1,0 +1,33 @@
+#messageBox
+{
+	margin-top: 10px;
+	margin-left: 5px;
+}
+#sendBtn
+{
+	margin-top: 5px;
+	margin-left: 50%;
+}
+#name, #message, #number
+{
+	margin-left: 20%;
+	margin-top: 10px;
+	width: 70%;
+}
+#head
+{
+	margin-left: 50px;
+}
+#box
+{
+	margin-left: 20%;
+	width: 70%;
+	height: 400px;
+	overflow: scroll;
+	border-radius: 10px;
+	border-color: red;
+	border-style: solid;
+	border-width: 2px;
+
+}
+

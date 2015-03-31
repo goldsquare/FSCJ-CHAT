@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <title>FSCJ Tutors</title>
+  </head>
+  <body ng-app="app" ng-controller="MyCtrl">
+    <h1 id="head">FSCJ Tutors</h1>
+
+ <div id="box">
+
+ 	<div class="container">
+ 		<div id="messageBox">
+ 	 		<div class="col-xs-2" id="userText">
+ 	 			
+ 	 		</div>
+ 	 	 <div class="col-xs-4" id="messageText">
+ 	 	 	
+ 	 	 </div>
+ 	 	 <div class="col-xs-6" id="numberText">
+ 	 	 	
+ 	 	 </div>
+ 	 	</div>
+ 	 </div>
+
+ </div>
+  
+  <input id="name" class="form-control" placeholder="enter name">
+  <input id="message" class="form-control" placeholder="enter subject">
+  <input id="number" class="form-control" placeholder="enter ph#">
+
+  <button ng-click="sendMessage()" id="sendBtn" class="btn btn-success btn-lg" >Send</button>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+ <script type="text/javascript" src="javascripts/angular.js"></script>
+  <script type="text/javascript" src="javascripts/main.js"></script>
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+  </body>
+</html>
+
+
+
+
+
+
+
